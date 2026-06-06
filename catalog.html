@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Феҳристи растаниҳои Тоҷикистон</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <h2>🌿 PlantShop TJ</h2>
+
+    <ul>
+        <li><a href="index.html">Асосӣ</a></li>
+        <li><a href="catalog.html">Феҳрист</a></li>
+        <li><a href="about.html">Дар бораи мо</a></li>
+        <li><a href="contact.html">Тамос</a></li>
+        <li><a href="#" onclick="openCart()">🛒 Сабад</a></li>
+    </ul>
+</nav>
+
+<header class="page-header">
+    <h1>🌿 Растаниҳои Тоҷикистон</h1>
+</header>
+
+<section class="catalog">
+
+<!-- 1 -->
+<div class="card">
+    <h3>Гули садбарг (Роза)</h3>
+    <p>🌹 Дар боғҳо бисёр парвариш мешавад</p>
+    <span>50 TJS</span>
+    <button onclick="addToCart('Садбарг',50)">Ба сабад</button>
+</div>
+
+<!-- 2 -->
+<div class="card">
+    <h3>Зардолу</h3>
+    <p>🍑 дарахти мевадор дар водиҳо</p>
+    <span>120 TJS</span>
+    <button onclick="addToCart('Зардолу',120)">Ба сабад</button>
+</div>
+
+<!-- 3 -->
+<div class="card">
+    <h3>Олу</h3>
+    <p>🍇 меваи ширин ва табиӣ</p>
+    <span>100 TJS</span>
+    <button onclick="addToCart('Олу',100)">Ба сабад</button>
+</div>
+
+<!-- 4 -->
+<div class="card">
+    <h3>Себ</h3>
+    <p>🍎 дар Хуҷанд ва Суғд зиёд аст</p>
+    <span>110 TJS</span>
+    <button onclick="addToCart('Себ',110)">Ба сабад</button>
+</div>
+
+<!-- 5 -->
+<div class="card">
+    <h3>Ангур</h3>
+    <p>🍇 машҳур дар Ҳисор</p>
+    <span>90 TJS</span>
+    <button onclick="addToCart('Ангур',90)">Ба сабад</button>
+</div>
+
+<!-- 6 -->
+<div class="card">
+    <h3>Чормағз</h3>
+    <p>🌰 дар кӯҳистон мерӯяд</p>
+    <span>150 TJS</span>
+    <button onclick="addToCart('Чормағз',150)">Ба сабад</button>
+</div>
+
+<!-- 7 -->
+<div class="card">
+    <h3>Бодом</h3>
+    <p>🌿 дарахти кӯҳӣ</p>
+    <span>140 TJS</span>
+    <button onclick="addToCart('Бодом',140)">Ба сабад</button>
+</div>
+
+<!-- 8 -->
+<div class="card">
+    <h3>Писта</h3>
+    <p>🌰 дар ҷануби кишвар</p>
+    <span>160 TJS</span>
+    <button onclick="addToCart('Писта',160)">Ба сабад</button>
+</div>
+
+<!-- 9 -->
+<div class="card">
+    <h3>Гандум</h3>
+    <p>🌾 асоси кишоварзӣ</p>
+    <span>30 TJS</span>
+    <button onclick="addToCart('Гандум',30)">Ба сабад</button>
+</div>
+
+<!-- 10 -->
+<div class="card">
+    <h3>Ҷуворимакка</h3>
+    <p>🌽 дар заминҳои гарм</p>
+    <span>35 TJS</span>
+    <button onclick="addToCart('Ҷуворимакка',35)">Ба сабад</button>
+</div>
+
+<!-- 11 -->
+<div class="card"><h3>Пиёз</h3><p>🧅 сабзавоти асосӣ</p><span>10 TJS</span><button onclick="addToCart('Пиёз',10)">Ба сабад</button></div>
+
+<!-- 12 -->
+<div class="card"><h3>Сабзӣ</h3><p>🥕 витамини A</p><span>12 TJS</span><button onclick="addToCart('Сабзӣ',12)">Ба сабад</button></div>
+
+<!-- 13 -->
+<div class="card"><h3>Картошка</h3><p>🥔 маҳсулоти асосӣ</p><span>20 TJS</span><button onclick="addToCart('Картошка',20)">Ба сабад</button></div>
+
+<!-- 14 -->
+<div class="card"><h3>Помидор</h3><p>🍅 парвариш дар гармхона</p><span>25 TJS</span><button onclick="addToCart('Помидор',25)">Ба сабад</button></div>
+
+<!-- 15 -->
+<div class="card"><h3>Бодиринг</h3><p>🥒 сабзавоти тару тоза</p><span>18 TJS</span><button onclick="addToCart('Бодиринг',18)">Ба сабад</button></div>
+
+<!-- 16 -->
+<div class="card"><h3>Лимӯ</h3><p>🍋 дар гармхонаҳо</p><span>130 TJS</span><button onclick="addToCart('Лимӯ',130)">Ба сабад</button></div>
+
+<!-- 17 -->
+<div class="card"><h3>Нок</h3><p>🍐 меваи ширин</p><span>95 TJS</span><button onclick="addToCart('Нок',95)">Ба сабад</button></div>
+
+<!-- 18 -->
+<div class="card"><h3>Тут</h3><p>🍇 барои абрешимпарварӣ</p><span>80 TJS</span><button onclick="addToCart('Тут',80)">Ба сабад</button></div>
+
+<!-- 19 -->
+<div class="card"><h3>Гули лола (кӯҳӣ)</h3><p>🌷 дар кӯҳҳои Тоҷикистон</p><span>70 TJS</span><button onclick="addToCart('Лола',70)">Ба сабад</button></div>
+
+<!-- 20 -->
+<div class="card"><h3>Алафҳои кӯҳӣ</h3><p>🌿 барои табобат истифода мешавад</p><span>40 TJS</span><button onclick="addToCart('Алафҳои кӯҳӣ',40)">Ба сабад</button></div>
+
+</section>
+
+<footer>
+    <p>© 2026 PlantShop TJ | Ҳама ҳуқуқҳо ҳифз шудаанд</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
